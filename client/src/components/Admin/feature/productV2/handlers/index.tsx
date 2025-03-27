@@ -1,0 +1,11 @@
+export { handleColorChange } from "src/components/Admin/feature/productV2/handlers/color";
+export { handleRamChange } from "src/components/Admin/feature/productV2/handlers/ram";
+export { handleScreenChange } from "src/components/Admin/feature/productV2/handlers/screen";
+export { handleCPUChange } from "src/components/Admin/feature/productV2/handlers/cpu";
+export { handleCardChange } from "src/components/Admin/feature/productV2/handlers/card";
+export { handleBatteryChange } from "src/components/Admin/feature/productV2/handlers/battery";
+export { restoreProduct } from "src/components/Admin/feature/productV2/handlers/restore";
+export { hardDeleteProduct } from "src/components/Admin/feature/productV2/handlers/hardDelete";
+export { handleSoftDeleteProduct } from "src/components/Admin/feature/productV2/handlers/softDelete";
+export { handleOsChange } from "src/components/Admin/feature/productV2/handlers/os";
+export { handleStorageChange } from "src/components/Admin/feature/productV2/handlers/storage";

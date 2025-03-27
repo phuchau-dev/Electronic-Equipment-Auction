@@ -1,0 +1,12 @@
+export { default as RamSelect } from "src/components/Admin/feature/productV2/select/ramSelect";
+export { default as ColorSelect } from "src/components/Admin/feature/productV2/select/colorSelect";
+export { default as DiscountSelect } from "src/components/Admin/feature/productV2/select/discountSelect";
+export { default as CategorySelect } from "src/components/Admin/feature/productV2/select/categorySelect";
+export { default as BrandSelect } from "src/components/Admin/feature/productV2/select/brandSelect";
+export { default as SupplierSelect } from "src/components/Admin/feature/productV2/select/supplierSelect";
+export { default as ScreenSelect } from "src/components/Admin/feature/productV2/select/screenSelect";
+export { default as CpuSelect } from "src/components/Admin/feature/productV2/select/cpuSelect";
+export { default as CardSelect } from "src/components/Admin/feature/productV2/select/cardSelect";
+export { default as BatterySelect } from "src/components/Admin/feature/productV2/select/batterySelect";
+export { default as OsSelect } from "src/components/Admin/feature/productV2/select/osSelect";
+export { default as StorageSelect } from "src/components/Admin/feature/productV2/select/storageSelect";

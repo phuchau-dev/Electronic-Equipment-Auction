@@ -1,0 +1,1 @@
+export * from 'src/redux/linkAccount/Thunk/linkAccount';

@@ -1,0 +1,10 @@
+export { default as addCategoryPostSlice } from "src/redux/post/slice/admin/add/addCategoryPost";
+export { default as listCategoryPostSlice } from "src/redux/post/slice/admin/list/getCategoryPostList";
+export { default as softDeleteCategoryPostSlice } from "src/redux/post/slice/admin/delete/softDeleteCategoryPost";
+export { default as selectProductsSlice } from "src/redux/post/slice/admin/select/selectProduct";
+export { default as addPostSlice } from "src/redux/post/slice/admin/add/addPost";
+export { default as selectCategoryPostSlice } from "src/redux/post/slice/admin/select/selectCategoryPost";
+export { default as listPostSlice } from "src/redux/post/slice/admin/list/getListPost";
+export { default as getOnePostSlice } from "src/redux/post/slice/admin/detail/getOnePost";
+export { default as editPostSlice } from "src/redux/post/slice/admin/edit/editPost";
+export { default as softDeletePostSlice } from "src/redux/post/slice/admin/delete/softDeletePost";

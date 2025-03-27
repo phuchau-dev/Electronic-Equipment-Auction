@@ -1,0 +1,63 @@
+.ck.ck-button.ck-off.ck-block-toolbar-button {
+    display: none !important;
+}
+
+
+
+
+
+.ck.ck-sticky-panel__content {
+    border-radius: 12px 12px 0 0 !important; /* Bo góc trên, giữ góc dưới vuông */
+    background: #ffffff !important;
+    border-top: 1px solid #ddd !important; /* Chỉ viền trên */
+    border-left: 1px solid #ddd !important; /* Viền trái */
+    border-right: 1px solid #ddd !important; /* Viền phải */
+    padding: 8px !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;
+    overflow: hidden !important;
+}
+.ck.ck-editor__main {
+    border-radius: 0 0 12px 12px !important; /* Bo góc dưới, giữ góc trên vuông */
+    background: #ffffff !important;
+    border-bottom: 1px solid #ddd !important; /* Chỉ viền dưới */
+    border-left: 1px solid #ddd !important; /* Viền trái */
+    border-right: 1px solid #ddd !important; /* Viền phải */
+    padding: 8px !important;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15) !important;
+    overflow: hidden !important;
+}
+.ck-blurred.ck.ck-content.ck-editor__editable.ck-rounded-corners.ck-editor__editable_inline {
+    border: none !important; /* Loại bỏ viền */
+    box-shadow: none !important; /* Xóa đổ bóng nếu có */
+    outline: none !important; /* Xóa đường viền focus nếu có */
+    background: transparent !important; /* Giữ nguyên nền */
+}
+:root {
+    --ck-focus-ring: none !important;
+    --ck-focus-outer-shadow: none !important;
+    --ck-focus-disabled-outer-shadow: none !important;
+    --ck-focus-error-outer-shadow: none !important;
+}
+
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.ck-editor__editable {
+    min-height: 300px; /* Tăng chiều cao */
+    border-radius: 10px; /* Bo tròn phần nhập nội dung */
+    padding: 12px;
+    font-size: 16px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+
+}
+
+
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+}

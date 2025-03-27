@@ -1,0 +1,1 @@
+export { selectFetchData } from 'src/components/Admin/feature/productAuction/FetchData/selectFetchData';
